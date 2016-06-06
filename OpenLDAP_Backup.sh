@@ -1,6 +1,9 @@
 #!/bin/bash
-#time  :2016-06-06 by Bruce
-#email :tz6618@163.com
+#Time  :2016-06-06 by Bruce
+#E-mail :tz6618@163.com
+#software Version:openldap-servers 2.4.39-6
+#OS : CentOS7
+#Script Version : V0.1
 
 cat >./openldap_backup.synax <<EOF
 /^creatorsName: /d
