@@ -4,7 +4,7 @@
 1. OpenLDAP_Backup.sh 用于全量备份OpenLDAP数据，恢复步骤如下:
     
     #第一步清空ldap数据库
-    ldapdelete -x -D "cn=Manager,dc=example,dc=cn" -w password -r "dc=xdja,dc=cn"
+    ldapdelete -x -D "cn=Manager,dc=example,dc=cn" -w password -r "dc=example,dc=cn"
     #第二步检查是否完全清空
     ldapsearch -x -LLL | wc -l
     #第三步从备份文件中恢复条目
