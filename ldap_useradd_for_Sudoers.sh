@@ -18,4 +18,4 @@ sudohost: ALL
 sudooption: !authenticate
 sudorunasuser: ALL
 sudouser: $1">ldap_user.ldif
-ldapadd -x -D "cn=Manager,dc=xdja,dc=cn" -h ldap-m.idc.example.cn -w tianzheng -f ./ldap_user.ldif
+ldapadd -x -D "cn=Manager,dc=example,dc=cn" -h ldap-m.idc.example.cn -w tianzheng -f ./ldap_user.ldif
